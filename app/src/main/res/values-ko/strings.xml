@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">HD FileManager</string>
+
+    <string name="test">미국</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_search">검색</string>
+    <string name="action_thumb">Thumb</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="left_menu_internal_storage">내부 저장소</string>
+    <string name="left_menu_sd_card">SD 카드</string>
+    <string name="left_menu_category_and_tag">카테고리 및 태그</string>
+    <string name="left_menu_internal_storage_s">내부 저장소</string>
+    <string name="left_menu_tag">태그</string>
+    <string name="left_menu_setting">환경 설정</string>
+    <string name="left_menu_feedback">사용자 의견</string>
+    <string name="left_menu_category">카테고리</string>
+
+    <string name="category_image">이미지</string>
+    <string name="category_video">비디오</string>
+    <string name="category_music">음악</string>
+    <string name="category_favorite">즐겨찾기</string>
+    <string name="category_download">다운로드</string>
+    <string name="category_internal_storage">내부 저장소</string>
+
+
+    <string name="dialog_title">타이틀</string>
+    <string name="dialog_text">텍스트</string>
+    <string name="dialog_cancle">취소</string>
+    <string name="dialog_ok">확인</string>
+    <string name="dialog_create">생성</string>
+
+    <string name="dialog_new_tag">새로운 태그</string>
+    <string name="dialog_delete_tag">태그 삭제</string>
+    <string name="dialog_tag_label">태그 라벨</string>
+    <string name="dialog_new_tag_name">새로운 태그 이름</string>
+    <string name="dialog_tag_color">태그 색상</string>
+
+
+    <string name="dialog_delete_tag_info">태크를 삭제 하시겠습니까?</string>
+    <string name="dialog_choose_your_language">언어 선택</string>
+    <string name="dialog_korea">한국어</string>
+    <string name="dialog_english">English</string>
+    <string name="dialog_japan">日本語</string>
+
+    <string name="dialog_select_tag">태그 선택</string>
+    <string name="dialog_create_new_tag">새로운 태그 생성</string>
+    <string name="dialog_relese_tag">태그 해제</string>
+
+    <string name="dialog_delete_file">파일 삭제</string>
+    <string name="dialog_delete_file_info"> 개의 파일을 삭제하시겠습니까?</string>
+
+    <string name="dialog_sorting_menu">정렬</string>
+    <string name="dialog_sorting_menu_name">이름 순 정렬</string>
+    <string name="dialog_sorting_menu_extension">확장자 순 정렬</string>
+    <string name="dialog_sorting_menu_date">날짜 순 정렬</string>
+
+    <string name="feedback_info">HD Filemanager는 사용자의 입장에서 의견을 수렴하고 적극 반영하고있습니다.\n문의 및 불편한 점이 있으시거나 필요한 기능이 있다면 자유롭게 의견을 주시길 바랍니다:)</string>
+    <string name="feedback_email_address">이메일 주소</string>
+    <string name="feedback_sample_email_address">Sample@gmail.com</string>
+    <string name="feedback_contents">내용</string>
+    <string name="feedback_send">전송</string>
+
+
+    <string name="setting_general">일반</string>
+    <string name="setting_new_file_alram">최신파일 알림</string>
+    <string name="setting_new_file_alram_info">새로 추가된 파일이 있을 시 알려드립니다.</string>
+    <string name="setting_memmory_alram">공간부족 경고 표시</string>
+    <string name="setting_memmory_alram_info">공간이 부족할 시 경고를 표시합니다.</string>
+    <string name="setting_security">보안</string>
+    <string name="setting_hide_file_alram">숨김 파일 및 폴더 보이기</string>
+    <string name="setting_hide_file_alram_info">숨겨진 파일을 보이게 합니다.</string>
+    <string name="setting_languages">언어</string>
+    <string name="setting_select_languages">언어선택</string>
+    <string name="setting_select_languages_info">사용하실 언어를 선택해주세요.</string>
+
+    <string name="snackbar_no_select">선택 항목이 없음</string>
+
+    <string name="snackbar_file_hide"> 개 파일이 숨김 처리되었습니다.</string>
+    <string name="snackbar_file_unhide"> 개 파일이 숨김 해제되었습니다.</string>
+    <string name="snackbar_file_favorite"> 개의 파일이 즐겨찾기에 추가되었습니다.</string>
+    <string name="snackbar_file_unfavorite"> 개의 파일이 즐겨찾기에서 삭제되었습니다.</string>
+    <string name="snackbar_file_delete"> 개의 파일이 삭제되었습니다.</string>
+    <string name="snackbar_delete">삭제되었습니다.</string>
+    <string name="snackbar_input_tagname">태그명을 입력해 주세요.</string>
+    <string name="snackbar_search_result_empty">검색 결과가 없습니다.</string>
+    <string name="snackbar_copy">복사</string>
+
+    <!-- COPY & MOVE  -->
+    <string name="movefail">이동 실패.</string>
+    <string name="movesuccsess">이동 성공.</string>
+    <string name="moving">이동중</string>
+
+    <string name="copyfail">복사 실패!</string>
+    <string name="copying">복사중</string>
+    <string name="copysuccsess">복사 성공.</string>
+
+    <string name="cantopenfile">이 파일을 열 수 없습니다.</string>
+
+    <!-- overwrite dialog -->
+    <string name="overwrite_title">해당 파일이 이미 존재합니다.</string>
+    <string name="overwrite_source">원본</string>
+    <string name="overwrite_destination">대상 파일</string>
+    <string name="overwrite_skip">건너뛰기</string>
+    <string name="overwrite_skip_all">모두 건너뛰기</string>
+    <string name="overwrite_replace">덮어쓰기</string>
+    <string name="overwrite_replace_all">모두 덮어쓰기</string>
+    <string name="cancel">취소</string>
+</resources>

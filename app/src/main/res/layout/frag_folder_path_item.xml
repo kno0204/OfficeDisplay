@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:fab="http://schemas.android.com/apk/res-auto">
+        <TextView
+            android:id="@+id/foler_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="path"
+            android:textSize="20dp"
+            android:textColor="#FFFFFFFF" />
+</RelativeLayout>

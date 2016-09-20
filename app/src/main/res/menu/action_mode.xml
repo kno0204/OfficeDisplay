@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_test1"
+        android:icon="@mipmap/ic_hide"
+        android:title="@string/action_search"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_test2"
+        android:icon="@mipmap/ic_copy"
+        android:title="@string/action_thumb"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_test3"
+        android:icon="@mipmap/ic_favorite"
+        android:title="@string/action_search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_test4"
+        android:icon="@mipmap/ic_tag"
+        android:title="@string/action_thumb"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_test5"
+        android:icon="@mipmap/ic_delete_white"
+        android:title="@string/action_thumb"
+        app:showAsAction="always" />
+</menu>

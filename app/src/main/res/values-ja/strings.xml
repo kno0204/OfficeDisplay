@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">HDパイルマネージャー</string>
+
+    <string name="test">アメリカ</string>
+
+    <string name="navigation_drawer_open">オープンナビゲーション引き出し</string>
+    <string name="navigation_drawer_close">クローズナビゲーション引き出し</string>
+
+    <string name="action_search">検索</string>
+    <string name="action_thumb">Thumb</string>
+    <string name="action_settings">設定</string>
+
+    <string name="left_menu_internal_storage">内部ストレージ</string>
+    <string name="left_menu_sd_card">SDカード</string>
+    <string name="left_menu_category_and_tag">カテゴリーとタグ</string>
+    <string name="left_menu_internal_storage_s">内部ストレージ</string>
+    <string name="left_menu_tag">タグ</string>
+    <string name="left_menu_setting">設定</string>
+    <string name="left_menu_feedback">フィードバック</string>
+    <string name="left_menu_category">カテゴリー</string>
+
+    <string name="category_image">イメージ</string>
+    <string name="category_video">ビデオ</string>
+    <string name="category_music">音楽</string>
+    <string name="category_favorite">フェバリット</string>
+    <string name="category_download">ダウンロード</string>
+    <string name="category_internal_storage"> 内部ストレージ</string>
+
+
+    <string name="dialog_title">題名</string>
+    <string name="dialog_text">テキスト</string>
+    <string name="dialog_cancle">キャンセル</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_create">作成</string>
+
+    <string name="dialog_new_tag">ニュータグ</string>
+    <string name="dialog_delete_tag">タグ削除</string>
+    <string name="dialog_tag_label">タグラベル</string>
+    <string name="dialog_new_tag_name">ニュータグの名前</string>
+    <string name="dialog_tag_color">タグのカラー</string>
+
+    <string name="dialog_delete_tag_info">選択したタグを削除しますか</string>
+    <string name="dialog_choose_your_language">言語を選択してください</string>
+    <string name="dialog_korea">한국어</string>
+    <string name="dialog_english">English</string>
+    <string name="dialog_japan">日本語</string>
+
+    <string name="dialog_select_tag">タグ選択</string>
+    <string name="dialog_create_new_tag">ニュータグを作成</string>
+    <string name="dialog_relese_tag">タグリリース</string>
+
+    <string name="dialog_delete_file">ファイル削除</string>
+    <string name="dialog_delete_file_info"> 個のファイルを削除しますか？</string>
+
+    <string name="dialog_sorting_menu">並べ替え</string>
+    <string name="dialog_sorting_menu_name">名前の順で並べ替え</string>
+    <string name="dialog_sorting_menu_extension">拡張子の順で並べ替え</string>
+    <string name="dialog_sorting_menu_date">日付の順で並べ替え</string>
+
+    <string name="feedback_info">HD Filemanagerはみなさまからのご意見を積極的に反映しています。\nお問い合わせや不都合なことがあったらお気軽にお問合せください。:)</string>
+    <string name="feedback_email_address">イーメール</string>
+    <string name="feedback_sample_email_address">Sample@gmail.com</string>
+    <string name="feedback_contents">内容</string>
+    <string name="feedback_send">送信</string>
+
+    <string name="setting_general">基本</string>
+    <string name="setting_new_file_alram">最新ファイルのリマインダー</string>
+    <string name="setting_new_file_alram_info">新たに追加されたファイルがある時にお知らせ申し上げます。</string>
+    <string name="setting_memmory_alram">領域不足のメッセージを表示</string>
+    <string name="setting_memmory_alram_info">空き領域が少なくなると、メッセージを表示されます。</string>
+    <string name="setting_security">セキュリティ</string>
+    <string name="setting_hide_file_alram">隠しファイルや隠しフォルダーを表示</string>
+    <string name="setting_hide_file_alram_info">隠しファイルや隠しフォルダーを表示します。</string>
+    <string name="setting_languages">言語</string>
+    <string name="setting_select_languages">言語を選択</string>
+    <string name="setting_select_languages_info">表示言語を選択して下さい</string>
+
+    <string name="snackbar_no_select">「選択項目」がありません。</string>
+
+    <string name="snackbar_file_hide">#個のファイルが隠されました。</string>
+    <string name="snackbar_file_unhide">#個の隠しファイルが表示されました。</string>
+    <string name="snackbar_file_favorite">#個のファイルがフェバリットに追加されました。</string>
+    <string name="snackbar_file_unfavorite">#個のファイルがフェバリットから削除されました。 </string>
+    <string name="snackbar_file_delete">#個のファイルが削除されました。</string>
+    <string name="snackbar_delete">削除されました。</string>
+    <string name="snackbar_input_tagname">タグの名前を入力してください。</string>
+    <string name="snackbar_search_result_empty">検索結果が見つかりませんでした。</string>
+    <string name="snackbar_copy">コピー</string>
+
+    <!-- COPY & MOVE  -->
+    <string name="movefail">ファイルの移動に失敗しました。</string>
+    <string name="movesuccsess">ファイルの移動が完了しました。</string>
+    <string name="moving">移動</string>
+
+    <string name="copyfail">コピーに失敗しました。</string>
+    <string name="copying">コピー中</string>
+    <string name="copysuccsess">コピーが完了しました。</string>
+
+    <string name="cantopenfile">ファイルがオープンできません。</string>
+
+    <!-- overwrite dialog -->
+    <string name="overwrite_title">ファイルが既にあります。</string>
+    <string name="overwrite_source">ソース</string>
+    <string name="overwrite_destination">目的地</string>
+    <string name="overwrite_skip">スキップ</string>
+    <string name="overwrite_skip_all">全部スキップ</string>
+    <string name="overwrite_replace">置き換える</string>
+    <string name="overwrite_replace_all">全部置き換える</string>
+    <string name="cancel">キャンセル</string>
+
+</resources>

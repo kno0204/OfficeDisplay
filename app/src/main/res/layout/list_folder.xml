@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="65dp" >
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/list_checker_layout"
+            android:layout_width="40dp"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:id="@+id/list_checker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:focusable="false"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/layout_icon"
+            android:layout_toRightOf="@+id/list_checker_layout"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp" >
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/fd_l" />
+
+            <TextView
+                android:id="@+id/icon_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="17dp"
+                android:text=""
+                android:textColor="#ffffff"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/layout_icon"
+            android:layout_toLeftOf="@+id/flag_icon_layout">
+            <TextView
+                android:id="@+id/filename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                android:text="file.txt"
+                android:textColor="#6b6b6b"
+                android:textSize="15dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/filename"
+                android:layout_marginTop="4dp" >
+
+                <TextView
+                    android:id="@+id/filedate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="left"
+                    android:layout_toLeftOf="@+id/filesize"
+                    android:ellipsize="middle"
+                    android:singleLine="true"
+                    android:text="2013-12-30 "
+                    android:textColor="#6b6b6b"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/filesize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="12dp"
+                    android:singleLine="true"
+                    android:text="500kb"
+                    android:textColor="#6b6b6b"
+                    android:textSize="11dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/flag_icon_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_alignParentRight="true">
+            <ImageView
+                android:id="@+id/favorite_icon"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/ic_favorite_s"/>
+            <ImageView
+                android:id="@+id/tag_icon"
+                android:visibility="gone"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/tag_red_s"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/layout_icon"
+            android:background="@color/gray2"/>
+        <LinearLayout
+            android:id="@+id/showhidden"
+            android:visibility="gone"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/line"
+            android:background="#99FFFFFF">
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

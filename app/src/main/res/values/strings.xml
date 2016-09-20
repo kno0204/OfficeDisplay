@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">HD FileManager</string>
+
+    <string name="test">America</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_thumb">Thumb</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="left_menu_internal_storage">Internal Storage</string>
+    <string name="left_menu_sd_card">SD Card</string>
+    <string name="left_menu_category_and_tag">Category and Tag</string>
+    <string name="left_menu_internal_storage_s">Internal storage</string>
+    <string name="left_menu_tag">Tag</string>
+    <string name="left_menu_setting">Setting</string>
+    <string name="left_menu_feedback">Feedback</string>
+    <string name="left_menu_category">Category</string>
+
+    <string name="category_image">Image</string>
+    <string name="category_video">Video</string>
+    <string name="category_music">Music</string>
+    <string name="category_favorite">Favorite</string>
+    <string name="category_download">Download</string>
+    <string name="category_internal_storage">Internal Storage</string>
+
+
+    <string name="dialog_title">Title</string>
+    <string name="dialog_text">Text</string>
+    <string name="dialog_cancle">Cancel</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_create">Create</string>
+
+    <string name="dialog_new_tag">New tag</string>
+    <string name="dialog_delete_tag">Delete tag</string>
+    <string name="dialog_tag_label">Tag Label</string>
+    <string name="dialog_new_tag_name">New Tag Name</string>
+    <string name="dialog_tag_color">Tag Color</string>
+
+    <string name="dialog_delete_tag_info">Do you want to delete selected tag ?</string>
+    <string name="dialog_choose_your_language">Choose your language</string>
+    <string name="dialog_korea">한국어</string>
+    <string name="dialog_english">English</string>
+    <string name="dialog_japan">日本語</string>
+
+    <string name="dialog_select_tag">Select tag</string>
+    <string name="dialog_create_new_tag">Create new tag</string>
+    <string name="dialog_relese_tag">Release tag</string>
+
+    <string name="dialog_delete_file">Delete File</string>
+    <string name="dialog_delete_file_info">Are you sure you want to delete # file(s)?</string>
+
+    <string name="dialog_sorting_menu">Sorting menu</string>
+    <string name="dialog_sorting_menu_name">Sort by Name</string>
+    <string name="dialog_sorting_menu_extension">Sort by Extension</string>
+    <string name="dialog_sorting_menu_date">Sort by Date</string>
+
+    <string name="feedback_info">We’d love to hear your feedback in order to make further improvement.\nPlease feel free to post your feedback for help, reporting issues in apps, feature requests, and any other suggestions. :)</string>
+    <string name="feedback_email_address">Email Address</string>
+    <string name="feedback_sample_email_address">Sample@gmail.com</string>
+    <string name="feedback_contents">Contents</string>
+    <string name="feedback_send">SEND</string>
+
+
+    <string name="setting_general">General</string>
+    <string name="setting_new_file_alram">New file notification</string>
+    <string name="setting_new_file_alram_info">Receive a notification when new files are added.</string>
+    <string name="setting_memmory_alram">Show insufficient space message</string>
+    <string name="setting_memmory_alram_info">Show the message when you have not enough space in device storage.</string>
+    <string name="setting_security">Security</string>
+    <string name="setting_hide_file_alram">Show hidden files and folders</string>
+    <string name="setting_hide_file_alram_info">Display files and folders which are hidden.</string>
+    <string name="setting_languages">Languages</string>
+    <string name="setting_select_languages">Select language</string>
+    <string name="setting_select_languages_info">Please select your language.</string>
+
+    <string name="snackbar_no_select">No file selected</string>
+
+    <string name="snackbar_file_hide"> #file(s) has been hidden.</string>
+    <string name="snackbar_file_unhide"> Successfully unhide # hidden file(s).</string>
+    <string name="snackbar_file_favorite"> # file(s) has been added to favorites.</string>
+    <string name="snackbar_file_unfavorite"> # file(s) has been removed from favorites.</string>
+    <string name="snackbar_file_delete"> # file(s) has been deleted.</string>
+    <string name="snackbar_delete">The file has been deleted successfully.</string>
+    <string name="snackbar_input_tagname">Please enter tag name.</string>
+    <string name="snackbar_search_result_empty">No result</string>
+    <string name="snackbar_copy">Copy</string>
+
+    <!-- COPY & MOVE  -->
+    <string name="movefail">Moving failed.</string>
+    <string name="movesuccsess">Successfully moved.</string>
+    <string name="moving">Moving</string>
+
+    <string name="copyfail">Copy failed!</string>
+    <string name="copying">Copying</string>
+    <string name="copysuccsess">Successfully copied.</string>
+
+    <string name="cantopenfile">Cannot open this file</string>
+
+    <!-- overwrite dialog -->
+    <string name="overwrite_title">Target file already exists</string>
+    <string name="overwrite_source">Source</string>
+    <string name="overwrite_destination">Destination</string>
+    <string name="overwrite_skip">Skip</string>
+    <string name="overwrite_skip_all">Skip all</string>
+    <string name="overwrite_replace">Replace</string>
+    <string name="overwrite_replace_all">Replace all</string>
+    <string name="cancel">CANCEL</string>
+
+</resources>
